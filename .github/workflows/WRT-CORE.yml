@@ -17,10 +17,10 @@ on:
         required: true
         type: string
       WRT_SSID:
-        required: true
+        required: false
         type: string
       WRT_WORD:
-        required: true
+        required: false
         type: string
       WRT_IP:
         required: true
