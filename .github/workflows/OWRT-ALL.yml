@@ -35,9 +35,9 @@ jobs:
       fail-fast: false
       #max-parallel: 3
       matrix:
-        CONFIG: X86
-        SOURCE: immortalwrt
-        BRANCH: openwrt
+        CONFIG: [X86]
+        SOURCE: [immortalwrt]
+        BRANCH: [openwrt]
 
     #调用公用编译核心WRT-CORE.yml
     uses: ./.github/workflows/WRT-CORE.yml
